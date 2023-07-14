@@ -39,11 +39,11 @@ while(True):
     mybrowser.get("http://172.16.40.5:8090/httpclient.html")
     username = mybrowser.find_element("id","username") 
 # Sending the keys for username     
-    username.send_keys("balkrishna")       
+    username.send_keys("write your username here")       
 # Getting the password element                            
     password = mybrowser.find_element("id", "password") 
     # Sending the keys for password   
-    password.send_keys("4")               
+    password.send_keys("Write your password here")               
     # Getting the tag for submit button  
     mybrowser.find_element("id", "loginbutton").click() 
 #Time of 5 minute . this program is in while loop of 5 minutes
